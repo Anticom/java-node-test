@@ -1,4 +1,6 @@
+//require('nashorn-polyfill/lib/timer-polyfill');
 var TestCafe = require('testcafe');
+
 var testCafe = new TestCafe (
     {
         controlPanelPort: 1337,
