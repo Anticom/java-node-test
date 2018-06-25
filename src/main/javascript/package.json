@@ -1,0 +1,17 @@
+{
+  "name": "testsuite",
+  "version": "1.0.0",
+  "description": "js side of e2e test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "testcafe": "^0.20.3"
+  },
+  "dependencies": {
+    "nashorn-polyfill": "^0.2.4"
+  }
+}
