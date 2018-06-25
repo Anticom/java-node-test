@@ -8,7 +8,7 @@ and forth conveniently.
 
 ## Building the docker image
 
-```sh
+```bash
 $ docker build -t anticom/enginetest:latest .
 ```
 
@@ -18,6 +18,6 @@ In the current proof of concept no ports need to be exposed to check anything.
 
 To create a container for tinkering arround that will clean up after itself,
 run:
-```sh
+```bash
 $ docker run --rm --name enginetest -it anticom/enginetest:latest
 ```
